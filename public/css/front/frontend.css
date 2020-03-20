@@ -1,0 +1,159 @@
+body{
+	background:#fff url(/img/pixels6.gif) repeat top left;
+	margin:0;
+	padding:0;
+	min-width:1000px;
+}
+
+body.iphone{
+	background:#fff url(/img/iPixels.gif) repeat top left;
+}
+
+
+div.square{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	float:left;
+	background: url(/img/white80.png) repeat;
+	position:relative;
+	border:none;
+	z-index:1;
+}
+
+div.clear{
+	clear:left;
+}
+
+div.dark{
+	background:#333;
+	color:#fff;
+}
+
+div.dummy{
+	background:none;
+}
+
+div.overlay{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
+}
+
+div.feat{
+	
+}
+
+div.image{
+	width:600px;
+	height:400px;
+}
+
+div.error404{
+	background: url(/img/404.jpg) no-repeat;
+	color:#fff;
+}
+
+div.image img{
+	
+}
+
+div.text{
+	padding: 0 18px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:5;
+}
+
+.right{
+	text-align:right;
+}
+
+.nav h1{
+	margin-bottom:3px;
+}
+
+ul.nav_primary{
+
+	height:18px;
+	font: 16px Georgia, "Times New Roman", Times, serif;
+	font-style:italic;	
+}
+
+ul.nav_primary li{
+	display:inline;
+	padding:0 2px 0 1px;
+}
+
+#showNext, #showPrevious{
+	font-size:18px;
+	cursor:pointer;
+	color:#666;
+}
+
+#showNext:hover, #showPrevious:hover{
+	color:#fff;
+}
+
+div.dark a:hover{
+	color:#fff;
+}
+
+
+
+
+/* =Clear Floated Elements
+--------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear
+{
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after
+{
+	clear: both;
+	content: '.';
+	display: block;
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfix
+{
+	display: inline-block;
+}
+
+* html .clearfix
+{
+	height: 1%;
+}
+
+.clearfix
+{
+	display: block;
+}

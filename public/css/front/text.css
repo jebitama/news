@@ -1,0 +1,127 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* =Basic HTML
+--------------------------------------------------------------------------------*/
+
+body
+{
+	font: 12px Helvetica, Arial, sans-serif;
+	line-height:18px;
+	color:#666;
+}
+
+a{
+	text-decoration:none;
+	color:#666;
+}
+
+a:hover{
+	color: #333;
+}
+
+em{
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+
+small, .small{
+	font-size:11px;
+	color:#686469;
+	font-weight:normal;
+}
+
+sup{
+	font-size: 10px;
+	vertical-align:super;
+}
+
+/* =Headings
+--------------------------------------------------------------------------------*/
+
+h1
+{
+	line-height: 18px;
+	font-size: 18px;
+	font-weight:bold;
+	color:#1d7ee2;
+}
+
+h2
+{
+	line-height: 18px;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+h3
+{
+	font-size: 14px ;
+	font-weight:bold;
+}
+
+h4
+{
+	font-size: 12px;
+	font-weight:bold;
+}
+
+h5
+{
+	font-size: 12px ;
+}
+
+h6
+{
+	font-size: 12px ;
+}
+
+/* =Spacing
+--------------------------------------------------------------------------------*/
+
+ol
+{
+	list-style: decimal;
+}
+
+ul {
+	list-style: none inside;
+	}
+
+
+li
+{
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+hr,
+h1,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset
+{
+	margin-bottom: 18px;
+}
+
+
+h4,
+li{
+	padding-left:2px;
+	padding-right:2px;
+}
+	
